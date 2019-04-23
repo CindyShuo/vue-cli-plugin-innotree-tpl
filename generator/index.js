@@ -31,7 +31,7 @@ function renderFiles (api, opts) {
   api.render({
     './.eslintrc.js'     : './templates/_eslintrc.js',
     './.gitignore'       : './templates/_gitignore',
-    './.env.test'       : './templates/_env.test',
+    './.env.test'       : './templates/_env.test'
   });
 }
 
