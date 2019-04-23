@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-innotree-tpl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Innotree Custom templates for Vue CLI 3",
   "main": "index.js",
   "scripts": {},

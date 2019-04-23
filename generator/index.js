@@ -35,5 +35,5 @@ function renderFiles (api, opts) {
 
 module.exports = (api, opts) => {
   addDependencies(api);
-  renderFiles(api);
+  renderFiles(api, opts);
 };
