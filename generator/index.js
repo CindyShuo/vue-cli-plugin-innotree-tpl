@@ -3,6 +3,7 @@ function addDependencies (api) {
     dependencies: {
       "axios": "^0.18.0",
       "babel-polyfill": "^6.26.0",
+      "vue-router": "^3.0.1",
       "vuex": '^3.0.1'
     },
     devDependencies: {
