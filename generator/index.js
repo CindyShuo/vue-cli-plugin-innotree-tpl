@@ -30,7 +30,8 @@ function renderFiles (api, opts) {
   // 配置文件
   api.render({
     './.eslintrc.js'     : './templates/_eslintrc.js',
-    './.gitignore'       : './templates/_gitignore'
+    './.gitignore'       : './templates/_gitignore',
+    './.env.test'       : './templates/_env.test',
   });
 }
 
