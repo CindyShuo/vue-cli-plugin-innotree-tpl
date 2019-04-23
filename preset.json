@@ -8,9 +8,7 @@
       "lintOn": ["save", "commit"]
     },
     "vue-cli-plugin-innotree-tpl": {
-      "replaceTemplates": true,
-      "vuex": true,
-      "elementUI": true
+      "replaceTemplates": true
     }
   },
   "configs": {
