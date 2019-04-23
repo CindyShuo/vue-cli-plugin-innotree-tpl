@@ -1,0 +1,21 @@
+{
+  "name": "vue-cli-plugin-innotree-tpl",
+  "version": "1.0.0",
+  "description": "Innotree Custom templates for Vue CLI 3",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CindyShuo/vue-cli-plugin-innotree-tpl.git"
+  },
+  "homepage": "https://github.com/CindyShuo/vue-cli-plugin-innotree-tpl#readme",
+  "keywords": [
+    "vue",
+    "cli",
+    "custom",
+    "template",
+    "plugin"
+  ],
+  "author": "zhoushuo",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+  "useConfigFiles": true,
+  "cssPreprocessor": "stylus",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": ["save", "commit"]
+    },
+    "vue-cli-plugin-innotree-tpl": {
+      "replaceTemplates": true,
+      "vuex": true,
+      "elementUI": true
+    }
+  },
+  "configs": {
+    "vue": {
+      "devServer": {
+        "proxy": {
+          "/api": {
+            "target": "",
+            "changeOrigin": true,
+            "pathRewrite": {
+              "^/api": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
